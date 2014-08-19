@@ -16,9 +16,24 @@ Or install it yourself as:
 
     $ gem install sinatra-writeexcel
 
-## Usage
+## Example
 
-TODO: Write usage instructions here
+```ruby
+require 'sinatra'
+require 'sinatra/writeexcel'
+
+get '/' do
+  @text = "Hello World!"
+  writeexcel :world
+end
+```
+
+In `views/world.rxls`
+```
+worksheet = workbook.add_worksheet('Hello')
+worksheet.write "A1", @text
+```
+
 
 ## Contributing
 
