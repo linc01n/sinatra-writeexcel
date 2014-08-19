@@ -1,6 +1,6 @@
-# Sinatra::Writeexcel
+# sinatra-writeexcel
 
-TODO: Write a gem description
+sinatra-writeexcel is a sinatra extension to add support for Excel rendering with [writeexcel](https://github.com/cxn03651/writeexcel) templates.
 
 ## Installation
 
