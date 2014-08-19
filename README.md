@@ -34,6 +34,9 @@ worksheet = workbook.add_worksheet('Hello')
 worksheet.write "A1", @text
 ```
 
+##License
+
+See LICENSE.txt
 
 ## Contributing
 
