@@ -1,5 +1,6 @@
 # sinatra-writeexcel
 [![Build Status](https://travis-ci.org/linc01n/sinatra-writeexcel.svg?branch=master)](https://travis-ci.org/linc01n/sinatra-writeexcel)
+[![Test Coverage](https://codeclimate.com/github/linc01n/sinatra-writeexcel/badges/coverage.svg)](https://codeclimate.com/github/linc01n/sinatra-writeexcel)
 
 sinatra-writeexcel is a sinatra extension to add support for Excel rendering with [writeexcel](https://github.com/cxn03651/writeexcel) templates.
 
