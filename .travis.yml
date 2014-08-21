@@ -5,14 +5,4 @@ rvm:
 addons:
   code_climate:
     repo_token: 278e3c80d7661203d7cb8b04f563f26a0449375cb69cfbaca722bf3c07252205
-env:
-  - "sinatra=1.2.9"
-  - "sinatra=1.2.8"
-  - "sinatra=1.2.7"
-  - "sinatra=1.2.6"
-  - "sinatra=1.2.5"
-  - "sinatra=1.2.4"
-  - "sinatra=1.2.3"
-  - "sinatra=1.2.2"
-  - "sinatra=1.2.1"
-  - "sinatra=1.2.0"
+
