@@ -40,7 +40,7 @@ worksheet.write "A1", @text
 
 ##License
 
-See LICENSE.txt
+See [LICENSE.txt](https://github.com/linc01n/sinatra-writeexcel/blob/master/LICENSE.txt)
 
 ## Contributing
 
