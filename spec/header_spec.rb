@@ -11,4 +11,9 @@ describe 'template header' do
     get '/'
     expect(last_response.header["Content-Type"]).to eq('application/vnd.ms-excel')
   end
+
+  it "should return content disposition attachment; filename=..." do
+    get '/'
+    expect(last_response.header["Content-Disposition"]).to eq('attachment; filename=test.xls')
+  end
 end
