@@ -7,7 +7,7 @@ module Sinatra
       def writeexcel(template = nil, options = {}, locals = {}, &block)
         headers(
           'Content-Type' => 'application/vnd.ms-excel',
-          'Content-Disposition' => "attachment; filename=#{template}.xls"
+          'Content-Disposition' => "attachment; filename=#{options[:filename] || template}.xls"
         )
         options, template = template, nil if template.is_a?(Hash)
         template = -> { block } if template.nil?

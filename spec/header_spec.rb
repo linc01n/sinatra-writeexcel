@@ -16,4 +16,9 @@ describe 'template header' do
     get '/'
     expect(last_response.header["Content-Disposition"]).to eq('attachment; filename=test.xls')
   end
+
+  it "should able to set excel filename" do
+    get '/test_filename'
+    expect(last_response.header["Content-Disposition"]).to eq('attachment; filename=foobar.xls')
+  end
 end
