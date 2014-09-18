@@ -28,7 +28,7 @@ require 'sinatra/writeexcel'
 
 get '/' do
   @text = "Hello World!"
-  writeexcel :world
+  writeexcel :world, filename: "hello_world"
 end
 ```
 
